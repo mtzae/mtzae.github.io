@@ -1,0 +1,639 @@
+@font-face {
+	font-family: notokufi-arabic-bold;
+	src: url('../fonts/NotoKufiArabic-Bold.ttf');
+}
+
+
+
+
+
+@font-face {
+	font-family: notokufi-arabic-Regular;
+	src: url('../fonts/NotoKufiArabic-Regular.ttf');
+}
+
+
+@font-face {
+	font-family: NotoNaskhArabic-Regular;
+	src: url('../fonts/NotoNaskhArabic-Regular.ttf');
+}
+
+
+
+
+[lang="ar"] footer .col-md-2,[lang="ar"] footer .col-md-3,[lang="ar"] footer .col-md-4   {
+    float: right;
+}
+[lang="ar"] .ar-done {
+    display: none !important;
+}
+html[lang="ar"] .en-done {
+    display: block !important;
+}
+[lang="ar"] .top-bar.light .col-xs-12.col-sm-6.col-md-6.col-lg-6 {
+    float: right;
+}
+.col-sm-4.boder-da-r {
+    float: right;
+}
+
+
+[lang="ar"] body {
+     direction: rtl;
+   font-family: notokufi-arabic-Regular;
+}
+
+
+
+
+[lang="ar"] .hero-section .section-title h2,
+[lang="ar"] .tittle h2,
+[lang="ar"] .tittle-2 h3,
+[lang="ar"] #counters ul li p,
+[lang="ar"] .footer-download-bar .text-holder p,
+[lang="ar"] .dep-detail-page .title p{
+     font-family: notokufi-arabic-Regular;
+}
+
+
+
+[lang="ar"] .sub-banner h3,
+[lang="ar"] .home-3 .bnr-info h2,
+[lang="ar"] .make-oppient .tittle h2,
+[lang="ar"] footer h5,
+[lang="ar"] .blog .text-section a.read-more,
+[lang="ar"] #prople-says h3,
+[lang="ar"] .department .nav-tabs li a,
+[lang="ar"] .doctor-in h4,
+[lang="ar"] .tittle h2,
+[lang="ar"] .tittle-2 h3,
+[lang="ar"] .department .tab-content .tittle h2{
+    letter-spacing: 0px;
+    
+}
+
+
+
+[lang="ar"] .over-gallery .details,
+[lang="ar"] .department .tab-content .tittle h2,
+[lang="ar"] .department .tab-content ul li,
+[lang="ar"] header .ownmenu,
+[lang="ar"] .megamenu,
+[lang="ar"] .search-title,
+[lang="ar"] .custom-title,
+[lang="ar"] .blog .text-section,
+[lang="ar"] .department .dep-sec-txt,
+[lang="ar"] .appointment input,
+[lang="ar"] .appointment textarea,
+[lang="ar"] #contact_form li input,
+[lang="ar"] #contact_form li textarea,
+[lang="ar"] .dep-detail-page .contact-form span.wpcf7-not-valid-tip,
+[lang="ar"] .wpcf7-validation-errors, [lang="ar"] .wpcf7-acceptance-missing, [lang="ar"] .wpcf7-spam-blocked,
+[lang="ar"] .custom_jobs_fitler,
+[lang="ar"] .wpcf7-mail-sent-ok,
+[lang="ar"] .wpcf7-not-valid-tip,
+[lang="ar"] #prople-says .testi p{
+ direction: rtl;
+}
+
+[lang="ar"] .over-gallery .details,
+[lang="ar"] .department .tab-content .tittle h2,
+[lang="ar"] .department .fact,
+[lang="ar"] .make-oppient .tittle h2,
+[lang="ar"] footer .social_icons,
+[lang="ar"] footer .small-info,
+[lang="ar"] .top-bar .search-bar input,
+[lang="ar"] .custom-title,
+[lang="ar"] .blog .text-section,
+[lang="ar"] .pop-open-style .pop_up .doctor-in,
+[lang="ar"] .department .dep-sec-txt p,
+[lang="ar"] .custom_address_ul li .heading,
+[lang="ar"] .dep-detail-page .contact-form .form-control,
+[lang="ar"] .dep-detail-page .contact-form,
+[lang="ar"] #contact_form li,
+[lang="ar"] .wpcf7-not-valid-tip{
+ text-align: right;
+}
+
+
+
+
+
+[lang="ar"] .aaa{
+  text-align: left;  
+}
+[lang="ar"] #prople-says .testi,
+[lang="ar"] .tab-content,
+[lang="ar"] .owl-carousel.owl-loaded,
+[lang="ar"] .ownmenu li > .megamenu a{
+      direction: ltr;
+}
+
+
+
+
+[lang="ar"] .footer-download-bar .text-holder,
+[lang="ar"] .footer-download-bar .btn-holder,
+[lang="ar"] .social_icons{
+    float:right;
+}
+
+/*
+[lang="ar"] p{ font-size:19px; line-height:25px;}
+*/
+
+
+
+[lang="ar"] .about-us p,
+[lang="ar"] .about-us .custom,
+[lang="ar"] p,
+[lang="ar"] .ownmenu li > .megamenu a,
+[lang="ar"] header .ownmenu ul.dropdown li a{
+    font-family: NotoNaskhArabic-Regular;
+    font-size: 1.7rem;
+line-height: 3rem;
+}
+
+
+[lang="ar"] .ownmenu li > .megamenu a{ line-height: 2rem;}
+
+[lang="ar"] .department .nav-tabs li a{ font-size: 1.6rem;padding: 39px 0px;}
+
+/*************Home Page*************/
+    
+/*[lang="ar"] header .ownmenu {
+      display: flex !important;
+}*/
+
+
+[lang="ar"] .home-3 .bnr-info h3{ font-size:1.5rem;}
+[lang="ar"] .home-3 .bnr-info h2{ font-size:1.9rem}
+
+
+[lang="ar"] .home-3 .bnr-info h2.open-soon {
+    font-size: 6.4rem;
+    padding-top: 35px;
+
+}
+[lang="ar"] .flex-prev{     left: 2%;}
+
+
+[lang="ar"] header .logo {
+    float: right;}
+    
+    
+
+[lang="ar"] .ownmenu li{ float:right;}
+
+
+
+[lang="ar"] .ownmenu li > .megamenu a {
+    padding-left: 4px;
+    padding-right: 30px;
+    direction: ltr;
+}
+
+[lang="ar"] .logo-wrap {
+    float: right;
+}
+[lang="ar"] .appointment-button input.btn.pull-right {
+    float: left !important;
+}
+[lang="ar"] .megamenu-title {
+    font-size: 16px !important;}
+    
+[lang="ar"] .ownmenu li > .megamenu a{ font-size: 14px}
+
+
+[lang="ar"] .megamenu-title.actual-link{
+       font-size: 14px !important;
+       line-height:25px;
+}
+
+[lang="ar"] header .ownmenu ul.dropdown li a{
+     font-size: 14px;
+     padding-top: 5px;
+
+padding-bottom: 5px;
+}
+
+[lang="ar"] .fact i {
+    margin-right: 0px;
+    margin-left: 10px;
+    
+}
+
+[lang="ar"] .what-app-container a.appointment {
+    padding-left: 20px;
+}
+
+
+[lang="ar"] .footer-download-bar .text-holder{}
+
+[lang="ar"] .footer-download-bar .btn-holder {
+    text-align: left;
+}
+
+[lang="ar"] .ownmenu ul.dropdown li ul.dropdown {
+    left: 0;right:100%;
+}
+me
+
+[lang="ar"] .top-bar li:first-child {
+    border-left: 1px solid #8a734c;
+    padding: 0 5px 0px 10px;
+    border-right: 0px;
+}
+
+[lang="ar"] .top-bar ul{ float:right;}
+
+
+
+[lang="ar"] .webimenu ul li > ul .sub-menu > a:before {
+    content: '\f104';
+    margin: 0;
+    font-family: 'FontAwesome';
+    position: absolute;
+    left: 12px;
+    right: inherit;
+}
+
+[lang="ar"] .webimenu {
+    padding-right: 20px;
+    float:left;
+}
+
+
+
+[lang="ar"] .ownmenu > li > .megamenu {   padding-top: 14px;}
+
+
+[lang="ar"] .ser-style-2 li h6 {font-size: 2rem;}
+
+/************Banner*****************/
+
+[lang="ar"] .home-3 .bnr-info h2 {
+    font-family: inherit;}
+    
+    
+    
+/************Program Detail Page CSS START*****************/
+
+[lang="ar"] .dep-detail-page .main-title{
+        direction: ltr;
+    text-align: right;
+}
+
+[lang="ar"] .dep-detail-page .default ul li {
+    padding: 8px 30px 8px 17px;
+    border-left: 1px solid #eae8e8;
+    border-right: 6px solid #eae8e8;
+     font-family: NotoNaskhArabic-Regular;
+}
+    
+[lang="ar"] .custom-sidebar-menu li .custom-dropdown {
+    padding-left: 0px;
+    padding-right: 20px;
+}    
+    
+/************Program Detail Page CSS END*****************/    
+
+
+
+
+[lang="ar"] .dep-detail-page .main-title.search-title
+{
+ direction: rtl;
+}
+
+
+    
+/************FAQ *****************/    
+
+
+[lang="ar"] #accordion .panel-default > .panel-heading .panel-title a:before {
+    
+    float: left;
+}
+
+.custom-title::after {
+    left: inherit;
+    right: 2px;
+
+}
+
+
+/************Blog *****************/    
+[lang="ar"] .blog .blog_ul .col-md-9, 
+[lang="ar"] .blog .blog_ul .col-md-3 {
+    float: right;
+}
+
+
+
+/************Blog *****************/    
+[lang="ar"] .blog .blog_ul .col-md-9, 
+[lang="ar"] .blog .blog_ul .col-md-3 {
+    float: right;
+}
+
+
+/************ About Us *****************/    
+[lang="ar"] .tittle h2 {
+    text-align: right;
+    
+}
+
+
+[lang="ar"] .about-us .custom {
+    margin: 0px 20px 40px 0px;
+}
+    
+    
+[lang="ar"] .about-us .time-line .col-xs-12,
+[lang="ar"] .about-us .time-line .col-sm-8{
+    float:right;
+}
+
+[lang="ar"] .about-us p {
+    font-size: 19px;
+}
+
+[lang="ar"] .about-us .custom li{
+    font-size:18px;
+}
+
+[lang="ar"] .custom-our-values .our-value-holder .our-value-details p{
+    font-size:18px;
+}
+
+
+
+[lang="ar"] footer p{
+    font-family: notokufi-arabic-Regular; 
+    font-size: 1.4rem;
+
+line-height: 2.3rem;
+}
+
+[lang="ar"] .footer-download-bar .btn-holder .download-btn i {
+
+    padding-left: 12px;
+    margin-right: -12px;
+
+}
+
+
+[lang="ar"] .english-only{
+    direction: initial;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+[lang="ar"] .contact-form label {
+    
+    direction: rtl;
+    text-align: right;
+
+}
+
+
+[lang="ar"] #contact_form li {
+    border: none;
+margin-bottom:5px;
+}
+
+[lang="ar"] .float-right-ar{ float:right;}
+
+[lang="ar"] .custom-career-page .btn {  width: 148px;}
+[lang="ar"] .ph-number {
+    text-align: left;
+    float: right;
+}
+[lang="ar"] .search-wrap{
+	float: right;
+}
+[lang="ar"] .pull-right.lang-wrap {
+    float: left !important;
+}
+[lang="ar"] .top-bar .language {
+    position: relative;
+    top: 0;
+    right: 0;
+    float: left !important;
+}
+[lang="ar"] .f-row {
+    margin: 0;
+}
+[lang="ar"] .m-0{
+	margin:0;
+}
+/************RESPONSIVE CSS*****************/   
+
+
+
+@media(min-width:992px) and (max-width:1199px) {
+
+ [lang="ar"] header nav li a {
+    
+}
+}
+
+@media (max-width: 992px) {
+
+/*[lang="ar"] header .ownmenu {
+      display: block !important;
+    }
+    */
+}
+[lang="ar"] .loc-det {
+    float: right;
+}
+	.ph-number {
+    text-align: left;
+}
+[lang="ar"] .what-app-container a.appointment {
+    
+    padding: 0;
+}
+@media (min-width: 768px) and (max-width: 990.98px){
+[lang="ar"] .topbar-search.pull-left {
+    position: relative;
+    left: 12px;
+    top: 0;
+    right: auto;
+    z-index: 99;
+}
+	
+	[lang="ar"] .search-wrap {
+    float: left;
+    margin-top: 90px;
+    position: absolute;
+    left: 0;
+}
+	[lang="ar"] .ph-number {
+    text-align: left;
+}
+	.ph-number {
+    text-align: left;
+}
+[lang="ar"] .pull-right.lang-wrap {
+    float: left !important;
+    padding-left: 20px;
+    z-index: 99;
+    position: absolute;
+    left: 0;
+    top: 47px;
+}
+	[lang="ar"] .menu-toggle {
+   
+    float: left;
+
+}
+	[lang="ar"] .appointment-button {
+    left:auto;
+    right: 15px;
+}
+}
+
+
+@media (max-width: 768px) {
+    [lang="ar"] .ownmenu li > .megamenu a {
+    padding-left: 4px;
+    padding-right: 4px;
+ 
+}
+    
+    [lang="ar"] .department .nav-tabs li a {
+    font-size: 1rem;
+      padding: 9px 10px;
+}
+    
+[lang="ar"] header .logo img {
+    width: 83%;
+    float: left;
+}
+
+[lang="ar"] .department .nav-tabs li {
+    float: left;
+    width: 99.3%;
+    text-align: right;
+}
+
+[lang="ar"] .department .fact li {
+    width: 100%;
+}
+
+
+[lang="ar"] .department .dep-sec-txt .tittle h2 {
+
+    padding:20px 0px 15px 0px;
+}
+
+
+
+/*Nav Bar */
+[lang="ar"] .webimenu ul .sub-menu > a:before {
+    content: '\f107';
+    margin: 0;
+    font-family: 'FontAwesome';
+    position: absolute;
+    left:10px;
+        right: inherit;
+}
+
+[lang="ar"] header nav li a {
+    padding: 10px 14px;
+    font-size: 14px;
+    border-top: 1px solid #d7cfc2;
+}
+[lang="ar"] .webimenu {
+    padding-right: 0px;
+}
+
+[lang="ar"] .ownmenu > li > .megamenu {
+    padding-top: 0px;
+}
+
+
+
+
+}
+@media (max-width: 767px) {
+	[lang="ar"] .pull-right.lang-wrap {
+    
+    padding-left: 5px;
+}
+	
+	[lang="ar"] .logo-wrap {
+    float: none;
+}
+	[lang="ar"] .top-bar .contact-number {
+    padding: 0;
+    margin-left: 10px;
+}
+[lang="ar"] .top-bar .search-bar {
+    justify-content: flex-start;
+}
+	[lang="ar"] .menu-toggle {
+    position: absolute;
+    top: -56px;
+    right: auto;
+    left: 0;
+}
+	[lang="ar"] .appointment-button {
+    float: right;
+    margin: auto;
+    width: 76%;
+}
+	[lang="ar"] .appointment-button input.btn.pull-right {
+    float: right !important;
+}
+	[lang="ar"] .search-wrap {
+    float: right;
+    width: auto;
+    max-width: none;
+    display: inline-block;
+    max-width: 225px;
+    padding-left: 0;
+}
+	[lang="ar"] .loc-det {
+ 
+    padding: 0;
+}
+}
+@media (max-width: 480px) {
+    
+      [lang="ar"] .top-bar li a {
+    color: #003a62;
+    font-size: 12px;
+}
+	
+	 [lang="ar"] .top-bar li {
+   
+    padding-left: 3px;
+    padding-right: 3px;
+}
+    
+    [lang="ar"] .top-bar ul{ float:initial;}
+    
+
+[lang="ar"] .home-3 .bnr-info .img {
+    margin-top: 4%;
+}
+
+
+[lang="ar"] .home-3 .bnr-info h3 {    font-size: 0.8rem;}
+
+
+[lang="ar"] .home-3 .bnr-info h2 {    font-size: 0.9rem;    padding: 4px 0px;}
+
+
+[lang="ar"] .home-3 .bnr-info h2.open-soon{ font-size: 1.4rem;padding-top: 0px; }
+    
+}
+
+[lang="ar"] .home-3 .bnr-info .btn {
+	display:none;
+}
