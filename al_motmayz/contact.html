@@ -7,6 +7,7 @@
 <meta name="description" content="Contact Al Motmayz Building Materials in Abu Dhabi for building materials, quotations, bulk orders and project requirements.">
 <link rel="icon" href="assets/logo-bg-m.png">
 <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body data-page="contact">
 <header class="site-header" id="top">
@@ -100,7 +101,7 @@
           <div><span class="eyebrow">REQUEST A QUOTE</span><h3>Send your requirements</h3></div>
           <span class="secure-note">● Quick enquiry</span>
         </div>
-        <form class="pro-contact-form" action="mailto:sales@ambmllc.com" method="post" enctype="text/plain">
+        <form class="pro-contact-form" action="" method="" id="submit-form" enctype="text/plain">
           <div class="form-section-title">Your details</div>
           <div class="form-row">
             <label>Full Name <span>*</span><input name="name" placeholder="Your full name" autocomplete="name" required></label>
@@ -125,6 +126,26 @@
     </div>
   </div>
 </section>
+
+  <script>
+  $("#submit-form").submit((e)=>{
+  e.preventDefault()
+  $.ajax({
+  url:"https://script.google.com/macros/s/AKfycbwIXfy0gfVFgZY_oeBDZPPgJfPY1qQmKDWigocbvpvfhCvynNGLZ7IaD_j-deQfzqwN-Q/exec",
+  data:$("#submit-form").serialize(),
+  method:"post",
+  success:function (response){
+  alert("Our sales team will contact you shortly. Thank you!")
+  window.location.reload()
+  //window.location.href="https://google.com"
+  },
+  error:function (err){
+  alert("Something Error")
+  
+  }
+  })
+  })
+  </script>
 
 <section class="section map-section">
   <div class="container">
