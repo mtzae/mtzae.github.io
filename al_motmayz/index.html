@@ -1,4 +1,4 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Al Motmayz Building Materials LLC | Abu Dhabi</title><meta name="description" content="Al Motmayz Building Materials LLC — professional building materials and supplies in Abu Dhabi."><link rel="icon" href="assets/logo-bg-m.png"><link rel="stylesheet" href="styles.css"></head><body data-page="home"><header class="site-header" id="top">
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Al Motmayz Building Materials LLC | Abu Dhabi</title><meta name="description" content="Al Motmayz Building Materials LLC — professional building materials and supplies in Abu Dhabi."><link rel="icon" href="assets/logo-bg-m.png"><link rel="stylesheet" href="styles.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script></head><body data-page="home"><header class="site-header" id="top">
   <div class="container nav-wrap">
     <a class="brand" href="index.html" aria-label="Al Motmayz Building Materials home">
       <img src="assets/logo-bg-m.png" alt="Al Motmayz Building Materials">
@@ -113,7 +113,7 @@
       <h2 id="quoteTitle">Tell us what you need.</h2>
       <p>Send your product requirement and our team can get back to you with the next step.</p>
     </div>
-    <form class="quote-form" id="quoteForm">
+    <form class="quote-form" id="submit-form">
       <div class="quote-row">
         <label>Full Name<input name="name" type="text" placeholder="Your name" required></label>
         <label>Company<input name="company" type="text" placeholder="Company name"></label>
@@ -129,6 +129,27 @@
         <button class="btn btn-primary" type="submit">Send Enquiry →</button>
       </div>
     </form>
+
+    <script>
+  $("#submit-form").submit((e)=>{
+  e.preventDefault()
+  $.ajax({
+  url:"https://script.google.com/macros/s/AKfycbwIXfy0gfVFgZY_oeBDZPPgJfPY1qQmKDWigocbvpvfhCvynNGLZ7IaD_j-deQfzqwN-Q/exec",
+  data:$("#submit-form").serialize(),
+  method:"post",
+  success:function (response){
+  alert("Our sales team will contact you shortly. Thank you!")
+  window.location.reload()
+  //window.location.href="https://google.com"
+  },
+  error:function (err){
+  alert("Something Error")
+  
+  }
+  })
+  })
+  </script>
+    
     <div class="quote-success" id="quoteSuccess" hidden>
       <div class="quote-success-icon">✓</div>
       <h3>Enquiry ready to send</h3>
